@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Shopco_API.Infrastructure1</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\shopco-API.Application\shopco-API.Application.csproj" />
+    <ProjectReference Include="..\shopco-API.Domain\shopco-API.Domain.csproj" />
+    <ProjectReference Include="..\shopco-API\shopco-API.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\bin\Debug\net7.0\shopco-API.Application.deps.json
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\bin\Debug\net7.0\shopco-API.Application.runtimeconfig.json
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\bin\Debug\net7.0\shopco-API.Application.dll
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\bin\Debug\net7.0\shopco-API.Application.pdb
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.csproj.AssemblyReference.cache
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.AssemblyInfoInputs.cache
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.AssemblyInfo.cs
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.csproj.CoreCompileInputs.cache
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.dll
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\refint\shopco-API.Application.dll
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.pdb
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.genruntimeconfig.cache
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\ref\shopco-API.Application.dll
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\bin\Debug\net7.0\shopco-API.Domain.dll
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\bin\Debug\net7.0\shopco-API.Domain.pdb
+C:\Users\Elvin\Desktop\shopco-API\shopco-API.Application\obj\Debug\net7.0\shopco-API.Application.csproj.CopyComplete
