@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using shopco_API.Application.CQRS.Seller.Commands;
 using shopco_API.Domain.Models.SellerModels;
 
+
 namespace shopco_API.Controllers
 {
     [ApiController]
@@ -17,9 +18,16 @@ namespace shopco_API.Controllers
 
         [Route("/seller/register")]
         [HttpPost]
-        public async Task<RegisterSellerResponse> Create([FromForm] RegisterSellerRequest request)
+        public async Task<RegisterSellerResponse> Register([FromForm] RegisterSellerRequest request)
         {
             return await mediator.Send(new RegisterSellerCommand(request));
+        }
+
+        [Route("/seller/login")]
+        [HttpPost]
+        public async Task<LoginSellerResponse> Login([FromForm] LoginSellerRequest request)
+        {
+            return await mediator.Send(new LoginSellerCommand(request));
         }
     }
 }

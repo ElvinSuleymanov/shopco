@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 namespace shopco_API.Infrastructure.DataBase
 {
     public class ApplicationDbContext : DbContext
-
     {
-
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
@@ -21,7 +19,6 @@ namespace shopco_API.Infrastructure.DataBase
         public DbSet<Seller> Sellers { get;set;}
         public DbSet<Product> Products { get;set;}
         public DbSet<UserWishlist> UserWishlists { get;set;}
-        public DbSet<SellerProduct> SellerProducts { get;set;}  
-
+        public DbSet<SellerProduct> SellerProducts { get;set;}
     }
 }

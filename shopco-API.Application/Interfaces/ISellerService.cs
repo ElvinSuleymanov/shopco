@@ -1,5 +1,5 @@
-﻿using shopco_API.Domain.Models.SellerModels;
-using System;
+﻿using shopco_API.Domain.Models.ProductModels;
+using shopco_API.Domain.Models.SellerModels;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +11,9 @@ namespace shopco_API.Application.Interfaces
     {
         public Task<RegisterSellerResponse> Register(RegisterSellerRequest req);
         public Task<LoginSellerResponse> Login(LoginSellerRequest req);
-        
+        public Task<AddProductResponse> AddProduct(AddProductRequest req);
+        public Task<GetProductResponse> GetProductById(GetProductRequest req);
+
+
     }
 }

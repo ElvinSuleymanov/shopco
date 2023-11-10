@@ -1,100 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\SellerPhotos\\196e33bc-3136-49fd-9bd0-1699e614a885.png",
-      "PackagePath": "staticwebassets\\SellerPhotos\\196e33bc-3136-49fd-9bd0-1699e614a885.png"
+      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\Products\\74480928-8eab-4a7f-9ee3-8317107ff761.jpg",
+      "PackagePath": "staticwebassets\\Products\\74480928-8eab-4a7f-9ee3-8317107ff761.jpg"
     },
     {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\SellerPhotos\\b674e50c-7b59-4240-b89a-67250b9c4485.png",
-      "PackagePath": "staticwebassets\\SellerPhotos\\b674e50c-7b59-4240-b89a-67250b9c4485.png"
+      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\SellerPhotos\\5865cfb5-8287-47bf-9122-ebae34e92bc9.png",
+      "PackagePath": "staticwebassets\\SellerPhotos\\5865cfb5-8287-47bf-9122-ebae34e92bc9.png"
     },
     {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\SellerPhotos\\bdbd43ef-e6af-4f75-ab70-9668706ff6b5.png",
-      "PackagePath": "staticwebassets\\SellerPhotos\\bdbd43ef-e6af-4f75-ab70-9668706ff6b5.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\SellerPhotos\\f2373871-557f-4d4f-b275-fad82ef84e8c.png",
-      "PackagePath": "staticwebassets\\SellerPhotos\\f2373871-557f-4d4f-b275-fad82ef84e8c.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\0173ffeb-7e3b-4280-91f2-de6e27f32449.jfif",
-      "PackagePath": "staticwebassets\\photos\\0173ffeb-7e3b-4280-91f2-de6e27f32449.jfif"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\0794ce4b-9689-4130-ab1e-7288677b4466.png",
-      "PackagePath": "staticwebassets\\photos\\0794ce4b-9689-4130-ab1e-7288677b4466.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\1e74b21d-b343-460c-abd2-19241b6ea3a7.png",
-      "PackagePath": "staticwebassets\\photos\\1e74b21d-b343-460c-abd2-19241b6ea3a7.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\1efc31e7-a677-428e-96a9-2c6f15992006.jpg",
-      "PackagePath": "staticwebassets\\photos\\1efc31e7-a677-428e-96a9-2c6f15992006.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\256322a9-233d-4f7d-942b-75cac3e58ece.jpg",
-      "PackagePath": "staticwebassets\\photos\\256322a9-233d-4f7d-942b-75cac3e58ece.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\450db715-99a9-49f0-b247-cc4cd88e7023.jpg",
-      "PackagePath": "staticwebassets\\photos\\450db715-99a9-49f0-b247-cc4cd88e7023.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\53fe56d9-2c5d-4c39-9d3d-baa05a4ad50d.jpg",
-      "PackagePath": "staticwebassets\\photos\\53fe56d9-2c5d-4c39-9d3d-baa05a4ad50d.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\5a4a4935-1a05-4ec4-99ef-a90671a3e2c1.png",
-      "PackagePath": "staticwebassets\\photos\\5a4a4935-1a05-4ec4-99ef-a90671a3e2c1.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\5bbff5ca-4aa9-4ddf-b3e1-9cd40f631fff.png",
-      "PackagePath": "staticwebassets\\photos\\5bbff5ca-4aa9-4ddf-b3e1-9cd40f631fff.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\60cc1b0e-bb79-4813-b841-fc178ea3e52b.png",
-      "PackagePath": "staticwebassets\\photos\\60cc1b0e-bb79-4813-b841-fc178ea3e52b.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\71305b3e-8e41-4658-84bc-c13d604b28e6.ico",
-      "PackagePath": "staticwebassets\\photos\\71305b3e-8e41-4658-84bc-c13d604b28e6.ico"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\a5617d25-6441-4dae-98be-9e50f23580ad.jfif",
-      "PackagePath": "staticwebassets\\photos\\a5617d25-6441-4dae-98be-9e50f23580ad.jfif"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\b96341b4-4516-42e1-917f-4f9d4cde6fbd.png",
-      "PackagePath": "staticwebassets\\photos\\b96341b4-4516-42e1-917f-4f9d4cde6fbd.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\c1e73631-9fdb-4ec5-abec-82fa13041433.jpg",
-      "PackagePath": "staticwebassets\\photos\\c1e73631-9fdb-4ec5-abec-82fa13041433.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\c556ad1b-155e-4521-b5ef-7adf531fa817.jpg",
-      "PackagePath": "staticwebassets\\photos\\c556ad1b-155e-4521-b5ef-7adf531fa817.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\c88bbcb4-39e7-4ac6-92ec-2489165ccd7b.png",
-      "PackagePath": "staticwebassets\\photos\\c88bbcb4-39e7-4ac6-92ec-2489165ccd7b.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\cb2809d4-c470-4f8e-963e-c12891c77af0.jpeg",
-      "PackagePath": "staticwebassets\\photos\\cb2809d4-c470-4f8e-963e-c12891c77af0.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\da8503b8-2c7e-40f2-b228-da27ff320e1c.png",
-      "PackagePath": "staticwebassets\\photos\\da8503b8-2c7e-40f2-b228-da27ff320e1c.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\e371a978-8c08-49de-9428-c8b80ef102ce.png",
-      "PackagePath": "staticwebassets\\photos\\e371a978-8c08-49de-9428-c8b80ef102ce.png"
-    },
-    {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\ef6864e2-6100-4598-8f19-b5a458a705e5.png",
-      "PackagePath": "staticwebassets\\photos\\ef6864e2-6100-4598-8f19-b5a458a705e5.png"
+      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\photos\\fc22a004-a469-4d52-82cb-b3b5691688fb.png",
+      "PackagePath": "staticwebassets\\photos\\fc22a004-a469-4d52-82cb-b3b5691688fb.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.shopco-API.props",

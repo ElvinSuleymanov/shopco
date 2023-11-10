@@ -21,9 +21,9 @@
     <ProjectReference Include="..\shopco-API.Domain\shopco-API.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <Folder Include="CQRS\Seller\Queries\" />
-  </ItemGroup>
+  </ItemGroup>-->
 
 
 
