@@ -27,13 +27,13 @@ namespace shopco_API
         public static IServiceCollection AddDependencies(this IServiceCollection builder)
         {
             builder.AddTransient<IMediator, Mediator>();
-            builder.AddTransient<IRequestHandler<AccountRegisterCommand, RegisterResponse>, AccountRegisterCommandHandler>();
-            builder.AddTransient<IRequestHandler<AccountLoginCommand, LoginResponse>, AccountLoginCommandHandler>();
-            builder.AddTransient<IRequestHandler<GetAccountQuery, GetAccountResponse>, GetAccountQueryHandler>();
-            builder.AddTransient<IRequestHandler<RegisterSellerCommand, RegisterSellerResponse>, RegisterSellerCommandHandler>();
-            builder.AddTransient<IRequestHandler<LoginSellerCommand, LoginSellerResponse>, LoginSellerCommandHandler>();
-            builder.AddTransient<IRequestHandler<AddProductCommand, AddProductResponse>, AddProductCommandHandler>();
-            builder.AddTransient<IRequestHandler<GetProductQuery, GetProductResponse>, GetProductQueryHandler>();
+            //builder.AddTransient<IRequestHandler<AccountRegisterCommand, RegisterResponse>, AccountRegisterCommandHandler>();
+            //builder.AddTransient<IRequestHandler<AccountLoginCommand, LoginResponse>, AccountLoginCommandHandler>();
+            //builder.AddTransient<IRequestHandler<GetAccountQuery, GetAccountResponse>, GetAccountQueryHandler>();
+            //builder.AddTransient<IRequestHandler<RegisterSellerCommand, RegisterSellerResponse>, RegisterSellerCommandHandler>();
+            //builder.AddTransient<IRequestHandler<LoginSellerCommand, LoginSellerResponse>, LoginSellerCommandHandler>();
+            //builder.AddTransient<IRequestHandler<AddProductCommand, AddProductResponse>, AddProductCommandHandler>();
+            //builder.AddTransient<IRequestHandler<GetProductQuery, GetProductResponse>, GetProductQueryHandler>();
             builder.AddTransient<ISellerService, SellerService>();
             builder.AddTransient<IAccountService, AccountService>();
             builder.AddTransient<IAuthenticationService, AuthenticationService>();

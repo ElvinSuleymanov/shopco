@@ -10,6 +10,7 @@ using shopco_API.Domain.Entities;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Authentication;
+using shopco_API.Domain.Models.WishlistModels;
 
 namespace shopco_API.Infrastructure.Services
 {
@@ -24,7 +25,6 @@ namespace shopco_API.Infrastructure.Services
             _env = env;
             authService = _authService; 
         }
-
         public async Task<RegisterResponse> RegisterUser(RegisterRequest request)
         {
 
@@ -56,7 +56,6 @@ namespace shopco_API.Infrastructure.Services
             await  _db.SaveChangesAsync();
             return new RegisterResponse();
         }
-
         public async Task<LoginResponse> LoginUser(LoginRequest request)
         {
            User targetUser = await _db.Users.Where<User>(entity => entity.Email == request.Email).FirstOrDefaultAsync();
@@ -72,12 +71,43 @@ namespace shopco_API.Infrastructure.Services
                 throw new AuthenticationException();
             }
         }
-
         public async Task<GetAccountResponse> GetUserById(int Id)
         {
            User selected = await _db.Users.FindAsync(Id);
             AccountResponse res = new AccountResponse { Email = selected.Email, Id = selected.Id, Surname = selected.Surname, Name = selected.Name, PhotoUrl = selected.PhotoUrl, UserRole = selected.Role };
             return new GetAccountResponse{ Message = "Operation Finished Successfully", StatusCode = 200, User = res};
+        }
+        public async Task<AddWishlistResponse> AddToWishlist(AddWishlistRequest request)
+        {
+            UserWishlist uw = new UserWishlist { ProductId = request.ProductId, UserId = request.UserId};
+            await  _db.UserWishlists.AddAsync(uw);
+            await  _db.SaveChangesAsync();
+
+
+            return new AddWishlistResponse { StatusCode = 200 };
+
+        }
+        public async Task<GetUserWishlistResponse> GetUserWishlist(GetUserWishlistRequest Request)
+        {
+            List<Product> Products = await _db.UserWishlists
+                .Where<UserWishlist>(uw => Request.ProductId != null ? uw.ProductId == Request.ProductId && uw.UserId == Request.UserId
+                :
+                uw.UserId == Request.UserId
+                ).Select<UserWishlist,Product>(entity => entity.Product).ToListAsync<Product>();
+
+                
+                
+            return new GetUserWishlistResponse { StatusCode = 200 ,Products = Products };
+        }
+        public async Task<DeleteUserWishlistResponse> DeleteUserWishlist(DeleteUserWishlistRequest Request)
+        {
+           var selected = await _db.UserWishlists.Where<UserWishlist>(entity => entity.UserId == Request.UserId && entity.ProductId == Request.ProductId).FirstOrDefaultAsync<UserWishlist>();
+            if (selected == null) {
+                throw new Exception("Something unknown happened");
+            }
+            _db.UserWishlists.Remove(selected);
+            await _db.SaveChangesAsync();
+            return new DeleteUserWishlistResponse { StatusCode = 200 };
         }
     }
 }

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using shopco_API;
+using shopco_API.Application;
 using shopco_API.Application.CQRS.Account.Commands;
 using shopco_API.Application.Interfaces;
 using shopco_API.Domain.Entities;
@@ -43,7 +44,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDependencies();
 builder.Services.AddApplication();
-
+builder.Services.AddCustomMediator();
 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>

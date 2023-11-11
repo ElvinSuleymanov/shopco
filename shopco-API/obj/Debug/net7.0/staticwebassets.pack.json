@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\Products\\74480928-8eab-4a7f-9ee3-8317107ff761.jpg",
-      "PackagePath": "staticwebassets\\Products\\74480928-8eab-4a7f-9ee3-8317107ff761.jpg"
+      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\Products\\087b51ee-f7d8-4e66-98e0-f81b71c5a075.webp",
+      "PackagePath": "staticwebassets\\Products\\087b51ee-f7d8-4e66-98e0-f81b71c5a075.webp"
+    },
+    {
+      "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\Products\\3f291dc6-ffaf-452a-b730-8e769423c90f.jpg",
+      "PackagePath": "staticwebassets\\Products\\3f291dc6-ffaf-452a-b730-8e769423c90f.jpg"
     },
     {
       "Id": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\SellerPhotos\\5865cfb5-8287-47bf-9122-ebae34e92bc9.png",

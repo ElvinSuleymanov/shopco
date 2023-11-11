@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Shzx3WheH0vybPdpVue5eEENX8sLf9Bzn9WLzcIG/d0=",
+  "Hash": "0i2wq/0t6fIMNf0b6iy8Hx6RjXlVp5StaisMK35VcqU=",
   "Source": "shopco-API",
   "BasePath": "_content/shopco-API",
   "Mode": "Default",
@@ -34,12 +34,12 @@
       "OriginalItemSpec": "wwwroot\\photos\\fc22a004-a469-4d52-82cb-b3b5691688fb.png"
     },
     {
-      "Identity": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\Products\\74480928-8eab-4a7f-9ee3-8317107ff761.jpg",
+      "Identity": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\Products\\087b51ee-f7d8-4e66-98e0-f81b71c5a075.webp",
       "SourceId": "shopco-API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\",
       "BasePath": "_content/shopco-API",
-      "RelativePath": "Products/74480928-8eab-4a7f-9ee3-8317107ff761.jpg",
+      "RelativePath": "Products/087b51ee-f7d8-4e66-98e0-f81b71c5a075.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,7 +48,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Products\\74480928-8eab-4a7f-9ee3-8317107ff761.jpg"
+      "OriginalItemSpec": "wwwroot\\Products\\087b51ee-f7d8-4e66-98e0-f81b71c5a075.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\Products\\3f291dc6-ffaf-452a-b730-8e769423c90f.jpg",
+      "SourceId": "shopco-API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\",
+      "BasePath": "_content/shopco-API",
+      "RelativePath": "Products/3f291dc6-ffaf-452a-b730-8e769423c90f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\3f291dc6-ffaf-452a-b730-8e769423c90f.jpg"
     },
     {
       "Identity": "C:\\Users\\Elvin\\Desktop\\shopco-API\\shopco-API\\wwwroot\\SellerPhotos\\5865cfb5-8287-47bf-9122-ebae34e92bc9.png",
